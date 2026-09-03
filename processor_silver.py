@@ -1,3 +1,5 @@
+"""Validate bronze records and publish complete records to the silver topic."""
+
 import json
 from datetime import datetime
 from confluent_kafka import Consumer, Producer

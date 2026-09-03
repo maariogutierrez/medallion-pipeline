@@ -1,3 +1,5 @@
+"""Publish student performance records from CSV to the bronze Kafka topic."""
+
 import time
 import pandas as pd
 from confluent_kafka import Producer

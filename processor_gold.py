@@ -1,3 +1,5 @@
+"""Transform silver records and persist derived performance data in PostgreSQL."""
+
 import json
 import psycopg2
 from datetime import datetime
